@@ -20,5 +20,5 @@ def badGateWay (request, exception):
     return HttpResponseBadRequest('<h1>Ошибка</h1>')
 
 def serverError (request,  *args, **argv):
-    return (request, '500.html', status:=500)
+    return (request, '400.html', status:=500)
 
