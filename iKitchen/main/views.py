@@ -21,3 +21,4 @@ def badGateWay (request, exception):
 
 def serverError (request,  *args, **argv):
     return (request, '500.html', status:=500)
+
